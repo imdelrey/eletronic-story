@@ -12,18 +12,24 @@ header {
 
 .cabecalho-lista-1 {
      color:white;
-     margin-left: 260px; /* alinhamento á esquerda*/
-     padding: 40px; /* espaçamento vertical */
+     margin-left: 40px;
+     padding: 20px; 
      display: inline-block; 
      justify-content: center;
+     color: white
+     margin-left: 260px; /*alinhamento à esquerda */
+     padding: 40px; /*espaçamento vertical */ 
 }
 
 .cabecalho-lista-2{
     color: white;
-    margin-left: 260px;
-    padding: 40px;
+    margin-left: 40px;
+    padding: 20px;*/ 
     display: inline-block;
     justify-content: center;
+    color: white;
+    margin-left: 270px; /*. alinhamento à esquerda */
+    padding: 35px; /* espaçamento vertical */
 }
 
 body {
@@ -36,9 +42,8 @@ body {
     color: #000000;
     justify-content: center;
     display: flex;
-    
 }
-
+    
 .paragrafo-1 {
     margin-left: 20px;
     justify-content: center;
@@ -99,4 +104,18 @@ p {
     padding: 20px;
 }
 
+preco-1 {
+  width: 25%;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: center;
+}
 
+preco-2 {
+  width: 25%;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: center;
+}
