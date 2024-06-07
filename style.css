@@ -5,18 +5,18 @@ header {
 
 .cabecalho {
     color:white;
-    margin-left: 660px;
     text-align: center;
     display: flex;
+    margin: 660px;
 }
 
 .cabecalho-lista-1 {
      color:white;
      margin-left: 40px;
-     padding: 20px; 
+     padding: 20px;*/
      display: inline-block; 
      justify-content: center;
-     color: white
+     color: white;
      margin-left: 260px; /*alinhamento à esquerda */
      padding: 40px; /*espaçamento vertical */ 
 }
@@ -33,9 +33,9 @@ header {
 }
 
 body {
-    background-color: rgb(248, 248, 131);
+    background-color: rgb(252, 252, 173);
     color: black; 
-    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Poppins','sans-serif';
 }
 
 .titulo-2 {
@@ -45,48 +45,52 @@ body {
 }
     
 .paragrafo-1 {
-    margin-left: 20px;
+    text-align: center;
     justify-content: center;
 }
 
 .titulo-3 {
     color:#000000;
     justify-content: center;
-    padding: 40px;
+    display: flex;
 
 }
 
 .paragrafo-2 {
-    margin-left: 20px;
+    text-align: center;
     justify-content: center;
 }
 
 .arduino {
-    width: 40%
-    margin-left: 30px;
-    margin-right: 50px;
+    width: 25%;
+    display: inline;
+    padding: 30px;
  } 
 
 .protoboard {
-    width: 40%; 
-    margin-right:  50px;
+    width: 25%; 
+    display: inline;
+    padding: 120px;
 }
 
 .multimetro {
-    width: 40%;
+    width: 25%;
     margin-right: 30px;
 }
  
 .capacitor {
-    width: 40%;
-    padding: 45px;
-    margin-left: 30px;
-    margin-right: 50px;
+    width: 15%;
+    display: inline;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
  
 .sensor-ldr{
-    width: 40%;
-    margin-right: 50px;
+    width: 20%;
+    display: inline;
+    padding: 20px;
+    margin-left: 150px;
 }
 
 .led {
@@ -97,6 +101,8 @@ body {
 footer {
     background-color:#000000;
     color:#FFFFFF;
+    text-align: center;
+    padding: 10px;
 }
 
 p {
